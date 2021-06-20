@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Titulo-->
+    <h1>
+        Jogo da Velha
+    </h1>
+
+    <!--Botoes-->
+    <div id="buttons-container">
+        <button id="2-players">2 Jogadores</button>
+        <button id="ai-player">1 Jogador</button>
+    </div>
+
+    <!--tabuleiro-->
+    <div id="container" class="hide">
+        <div class="box" id="b1"></div>
+        <div class="box" id="b2"></div>
+        <div class="box" id="b3"></div>
+        <div class="box" id="b4"></div>
+        <div class="box" id="b5"></div>
+        <div class="box" id="b6"></div>
+        <div class="box" id="b7"></div>
+        <div class="box" id="b8"></div>
+        <div class="box" id="b9"></div>
+    </div>
+
+    <!--Placar-->
+    <div id="placar-container" class="hide">
+        <h2>Placar:</h2>
+        <span class="placar-box">
+            <span id="x-placar">X</span>
+            <span id="placar-1">0</span>
+        </span>
+        <span class="placar-box">
+            <span id="o-placar"></span>
+            <span id="placar-2">0</span>
+        </span>
+    </div>
+
+    <!--Pecas X e O-->
+    <div class="hide">
+        <div class="x">X</div>
+        <div class="o"></div>
+    </div>
+
+    <!--Mensagem-->
+    <div id="message" class="hide">
+        <p>Mensagem da vitoria</p>
+    </div>
+
+    <!--Linha da Vitoria-->
+    <div class="linhaVitoriaVertical hide"></div>
+    <div class="linhaVitoriaHorizontal hide"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

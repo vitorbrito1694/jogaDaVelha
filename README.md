@@ -1,2 +1,3 @@
 # jogaDaVelha
-Jogue sozinho ou com um amigo
+
+Basta clonar e jogar! Sozinho ou com um amigo!
